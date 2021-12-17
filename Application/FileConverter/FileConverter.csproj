@@ -179,7 +179,7 @@
     <Compile Include="Services\NavigationService.cs" />
     <Compile Include="PathHelpers.cs" />
     <Compile Include="Properties\Resources.fr.Designer.cs">
-      <DependentUpon>Resources.fr.resx</DependentUpon>
+      <DependentUpon>Resources.fr-FR.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
@@ -330,7 +330,7 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.de.resx" />
     <EmbeddedResource Include="Properties\Resources.es-ES.resx" />
-    <EmbeddedResource Include="Properties\Resources.fr.resx">
+    <EmbeddedResource Include="Properties\Resources.fr-FR.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
