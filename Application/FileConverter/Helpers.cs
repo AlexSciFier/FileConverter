@@ -25,7 +25,7 @@ namespace FileConverter
             "3gp","aac","aiff","ape","arw","avi","bik","bmp","cda","cr2","dng","doc","docx","exr",
             "flac","flv","gif","ico","jpg","jpeg","m4a","m4v","mkv","mov","mp3","mp4","mpeg","nef",
             "odp","ods","odt","oga","ogg","ogv","pdf","png","ppt","pptx","psd","raf","svg",
-            "tga","tif","tiff","vob","wav","webm","webp","wma","wmv","xls","xlsx"
+            "tga","tif","tiff","vob","wav","webm","webp","wma","wmv","xls","xlsx","heic"
         };
 
         public static string GetExtensionCategory(string extension)
@@ -78,6 +78,7 @@ namespace FileConverter
                 case "svg":
                 case "xcf":
                 case "webp":
+                case "heic":
                     return InputCategoryNames.Image;
 
                 case "gif":
